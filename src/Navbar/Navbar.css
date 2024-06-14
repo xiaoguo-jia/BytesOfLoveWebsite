@@ -1,11 +1,19 @@
 .header-container {
-    background-color: rgba(252,203,255,255);
+    background-color: rgba(255, 232, 249, 1);
+    background-image: url('heartsbackground.png');
+    background-size: 35%;
     position: relative;
     height: 10vh;
     width: 100%;
     margin-bottom: 7.5vh;
     display: flex;
     align-items: center;
+}
+
+.logo {
+    width: 60px; 
+    height: 60px; 
+    margin-left: 20px;
 }
 
 .header-option-container {
@@ -27,7 +35,7 @@
 }
 
 .header-option-text:hover {
-    color: rgba(156,71,150,255);
+    color: rgba(156, 71, 150, 255);
 }
 
 
